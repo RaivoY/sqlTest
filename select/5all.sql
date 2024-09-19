@@ -25,5 +25,5 @@ select
     m.fist_name as "manager name"
 from employees e
 join employees m
-on reports_to = m.employee_id; 
+on reports_to = m.employee_id;
     
